@@ -10,7 +10,7 @@ This is a experimental idea of how to implement a task-driven autonomous agent s
 
 * 📋 **Task Manager Agent**: Responsible for generating, managing, and prioritizing tasks in the task list.
 * 🏃 **Task Executor Agent**: Processes and completes tasks using GPT-4 and the LangChain framework.
-* 🧠 **Memory Manager Agent**: Manages the memory storage of the system – short-term and long-term memory.
+* 🧠 **Memory Manager Agent**: Manages memory storage of the system – short-term and long-term memory.
 * ⚙️ **Execution Context Agent**: Handles external execution environments – file systems, APIs, unit tests.
 * 🔒 **Security and Safety Agent**: Monitors and filtering throughout the process ensuring safe operation.
 
@@ -27,6 +27,8 @@ The system operates in the following order:
 7. Security and Safety Agent monitors and acts to maintain ethical and safety standards.
 
 ## 🏗️ System Architecture
+
+High level description of the entire system, followed by details about the purpose of each of agents.
 
 ### 📝 Pseudocode of Task-Driven Autonomous Agent System
 
