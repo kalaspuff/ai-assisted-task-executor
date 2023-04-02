@@ -2,7 +2,7 @@
 
 ## 📑 Overview
 
-**A Task-Driven Autonomous Agent System leveraging GPT-4, pinecone vector search, and the LangChain framework.**
+**Task-Driven Autonomous Agent System using [GPT-4](https://openai.com/product/gpt-4), [pinecone](https://www.pinecone.io/) vector search, and the [LangChain](https://python.langchain.com/en/latest/) framework.**
 
 This is a experimental idea of how to implement a task-driven autonomous agent system is a cutting-edge AI-powered solution that leverages GPT-4, Pinecone vector search, and the LangChain framework to efficiently complete, generate, and prioritize tasks while also providing interfaces to code, source control, the concept of file systems, further documentation, etc. The system is designed to be modular, scalable, and flexible, making it adaptable to future improvements and extensions.
 
