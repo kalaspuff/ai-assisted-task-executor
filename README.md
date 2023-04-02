@@ -4,7 +4,7 @@
 
 **Task-Driven Autonomous Agent System using [GPT-4](https://openai.com/product/gpt-4), [pinecone](https://www.pinecone.io/) vector search, and the [LangChain](https://python.langchain.com/en/latest/) framework.**
 
-This is a experimental idea of how to implement a task-driven autonomous agent system is a cutting-edge AI-powered solution that leverages GPT-4, Pinecone vector search, and the LangChain framework to efficiently complete, generate, and prioritize tasks while also providing interfaces to code, source control, the concept of file systems, further documentation, etc. The system is designed to be modular, scalable, and flexible, making it adaptable to future improvements and extensions.
+This experimental task-driven autonomous agent system is a cutting-edge AI-powered solution that leverages GPT-4, Pinecone vector search, and the LangChain framework to efficiently complete, generate, and prioritize tasks, while also providing interfaces for code, source control, file systems, documentation, and more.
 
 ### Brief Description of Agents
 
@@ -22,7 +22,7 @@ The system operates in the following order:
 2. Task Executor Agent processes the task at the front of the task list.
 3. Memory Manager Agent provides necessary memory and context for task execution.
 4. Execution Context Agent interfaces with external environments to fetch data or execute tasks as needed.
-5. Task Executor Agent completes tasks, storeing the results, and updates the Memory Manager Agent.
+5. Task Executor Agent completes tasks, storing the results, and updates the Memory Manager Agent.
 6. Task Manager Agent generates tasks based on the completed task result and reprioritizes the task list.
 7. Security and Safety Agent monitors and acts to maintain ethical and safety standards.
 
@@ -32,7 +32,7 @@ High level description of the entire system, followed by details about the purpo
 
 ### 📝 Pseudocode of Task-Driven Autonomous Agent System
 
-By using this pseudocode within the system messages of each agent, they will have a shared understanding of how the entire system operates and will be able to perform their respective tasks effectively and more to the point.
+By using this pseudocode, each agent can share an understanding of the entire system operation, allowing them to perform their respective tasks effectively and with greater focus.
 
 ```python
 # Pseudocode for the Task-Driven Autonomous Agent System
@@ -741,7 +741,7 @@ By using this pseudocode within the system message of the SecuritySafetyAgent, i
 
 ### 🎛️ Example of task execution (add chat box)
 
-> Add a chat box to my application and the chat box should be used to be able to interact with our customer services agents.
+Task: "Add a chat box to my application and the chat box should be used to be able to interact with our customer services agents."
 
 #### Task execution
 
@@ -765,7 +765,7 @@ The system iteratively works through these steps until the chat box is successfu
 
 ### 🔧 More advanced example of task execution (provide fix for problem in production)
 
-> Use the output from a Sentry stack trace from a production system where of an application experienced an unexpected error and provide a fix for the issue as a GitHub pull request.
+Task: "Use the output from a Sentry stack trace from a production system where of an application experienced an unexpected error and provide a fix for the issue as a GitHub pull request."
 
 #### Task execution
 
