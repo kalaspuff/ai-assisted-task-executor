@@ -28,7 +28,7 @@ The system operates in the following order:
 
 ## 🏗️ System Architecture
 
-### 📝 Pseudo Code
+### 📝 Pseudocode of Task-Driven Autonomous Agent System
 
 By using this pseudocode within the system messages of each agent, they will have a shared understanding of how the entire system operates and will be able to perform their respective tasks effectively and more to the point.
 
