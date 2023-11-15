@@ -6,6 +6,8 @@
 
 This experimental task-driven autonomous agent system is a cutting-edge AI-powered solution that leverages GPT-4, Pinecone vector search, and the LangChain framework to efficiently complete, generate, and prioritize tasks, while also providing interfaces for code, source control, file systems, documentation, and more.
 
+![tasks-cover-13-3444x1661-sharpened-new-2-proper-transparent](https://github.com/kalaspuff/ai-assisted-task-executor/assets/89139/26ac826a-82bc-482d-9a18-03f84ecbaaa3)
+
 ### Brief Description of Agents
 
 * 📋 **Task Manager Agent**: Responsible for generating, managing, and prioritizing tasks in the task list.
